@@ -49,12 +49,53 @@ public class SqlCitas extends SqlConector {
     }
         return 
     }
-    
-    
-    public Cita[] consultarCitasPorCoordinador(int idCoordinador){
-        
-        return
+
+    // Modificado 20/02/2024    
+    public Cita[] consultarCitasPorCoordinador(int idCoordinador) {
+    // Crear una instancia de Cita para almacenar los datos recuperados de la base de datos
+    Cita[] citasCoordinador = new Cita[MAX_NUM_CITAS]; // Ajusta MAX_NUM_CITAS al máximo número esperado de citas por coordinador
+    int index = 0; // Índice para rastrear la posición actual al agregar citas al arreglo
+
+    // Consulta SQL para recuperar citas por coordinador
+    String sqlSelect = "SELECT * FROM Citas WHERE coordinador_id = ?";
+
+    try {
+        // Preparar la consulta SQL
+        PreparedStatement PS = this.getConnection().prepareStatement(sqlSelect);
+        PS.setInt(1, idCoordinador); // Establecer el parámetro de coordinador_id en la consulta SQL
+        RS = PS.executeQuery();
+
+        // Iterar sobre los resultados de la consulta
+        while (RS.next()) {
+            // Crear una nueva instancia de Cita para almacenar los datos de cada cita
+            Cita cita = new Cita();
+
+            // Asignar valores de las columnas de la tabla a los campos de la instancia de Cita
+            cita.setId_cita(RS.getString("id_cita"));
+            cita.setFecha(RS.getString("fecha"));
+            cita.setHora(Integer.parseInt(RS.getString("hora")));
+            cita.setCitadorId(RS.getString("citador_id"));
+            cita.setCitadorDocente(RS.getString("citador_docente"));
+            cita.setMotivo(RS.getString("motivo"));
+            cita.setEstado(RS.getString("estado"));
+
+            // Agregar la cita al arreglo de citas
+            citasCoordinador[index] = cita;
+            index++; // Incrementar el índice para la siguiente cita
+        }
+    } catch (SQLException e) {
+        // Manejar cualquier excepción SQL
+        System.out.println("Error al consultar citas por coordinador: " + e.getMessage());
+    } finally {
+        // Cerrar la conexión y liberar recursos
+        this.desconectar();
+        this.close();
     }
+
+    // Devolver el arreglo de citas
+    return citasCoordinador;
+}
+    
     
     public void cambiarEstadoCita(char estadoNuevo){}
 }
