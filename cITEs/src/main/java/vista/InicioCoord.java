@@ -26,95 +26,95 @@ public class InicioCoord extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Panel8Fondo = new javax.swing.JPanel();
-        Panel8Inicio = new javax.swing.JPanel();
-        IconoVerCitas = new javax.swing.JLabel();
-        IconoCitaPend = new javax.swing.JLabel();
-        BotonVerCitas = new javax.swing.JButton();
-        BotonVerCitaPend = new javax.swing.JButton();
-        TextBienvenidaCoord = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Panel8Fondo.setBackground(new java.awt.Color(0, 0, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
 
-        Panel8Inicio.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        IconoVerCitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/VerCita.png.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/VerCita.png.png"))); // NOI18N
 
-        IconoCitaPend.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/CitaPendiente.png.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/CitaPendiente.png.png"))); // NOI18N
 
-        BotonVerCitas.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonVerCitas.setText("Ver citas");
-        BotonVerCitas.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton1.setText("Ver citas");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BotonVerCitasActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
 
-        BotonVerCitaPend.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonVerCitaPend.setText("Ver citas pendientes");
+        jButton2.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton2.setText("Ver citas pendientes");
 
-        javax.swing.GroupLayout Panel8InicioLayout = new javax.swing.GroupLayout(Panel8Inicio);
-        Panel8Inicio.setLayout(Panel8InicioLayout);
-        Panel8InicioLayout.setHorizontalGroup(
-            Panel8InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel8InicioLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(54, 54, 54)
-                .addGroup(Panel8InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel8InicioLayout.createSequentialGroup()
-                        .addComponent(IconoVerCitas)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel2)
                         .addGap(131, 131, 131)
-                        .addComponent(IconoCitaPend)
+                        .addComponent(jLabel3)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(Panel8InicioLayout.createSequentialGroup()
-                        .addComponent(BotonVerCitas)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
-                        .addComponent(BotonVerCitaPend)
+                        .addComponent(jButton2)
                         .addGap(23, 23, 23))))
         );
-        Panel8InicioLayout.setVerticalGroup(
-            Panel8InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel8InicioLayout.createSequentialGroup()
-                .addGroup(Panel8InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel8InicioLayout.createSequentialGroup()
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(59, 59, 59)
-                        .addComponent(IconoVerCitas))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Panel8InicioLayout.createSequentialGroup()
+                        .addComponent(jLabel2))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(IconoCitaPend)))
+                        .addComponent(jLabel3)))
                 .addGap(18, 18, 18)
-                .addGroup(Panel8InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BotonVerCitas)
-                    .addComponent(BotonVerCitaPend))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(jButton2))
                 .addContainerGap(81, Short.MAX_VALUE))
         );
 
-        TextBienvenidaCoord.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
-        TextBienvenidaCoord.setForeground(new java.awt.Color(255, 255, 255));
-        TextBienvenidaCoord.setText("Bienvenido coordinador");
+        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Bienvenido coordinador");
 
-        javax.swing.GroupLayout Panel8FondoLayout = new javax.swing.GroupLayout(Panel8Fondo);
-        Panel8Fondo.setLayout(Panel8FondoLayout);
-        Panel8FondoLayout.setHorizontalGroup(
-            Panel8FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel8FondoLayout.createSequentialGroup()
-                .addGroup(Panel8FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel8FondoLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(36, 36, 36)
-                        .addComponent(TextBienvenidaCoord))
-                    .addGroup(Panel8FondoLayout.createSequentialGroup()
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(28, 28, 28)
-                        .addComponent(Panel8Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(19, Short.MAX_VALUE))
         );
-        Panel8FondoLayout.setVerticalGroup(
-            Panel8FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel8FondoLayout.createSequentialGroup()
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
-                .addComponent(TextBienvenidaCoord)
+                .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Panel8Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -122,19 +122,19 @@ public class InicioCoord extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Panel8Fondo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Panel8Fondo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BotonVerCitasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonVerCitasActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BotonVerCitasActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -172,27 +172,12 @@ public class InicioCoord extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BotonVerCitaPend;
-    private javax.swing.JButton BotonVerCitas;
-    private javax.swing.JLabel IconoCitaPend;
-    private javax.swing.JLabel IconoVerCitas;
-    private javax.swing.JPanel Panel8Fondo;
-    private javax.swing.JPanel Panel8Inicio;
-    private javax.swing.JLabel TextBienvenidaCoord;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
-/*
-private javax.swing.JButton BotonVerCitaPend; : Boton donde le usuario-coordinador indicara que quiere ver sus Citas pendientes
-
-    private javax.swing.JButton BotonVerCitas; :  Boton donde le usuario-coordinador indicara que quiere ver sus Citas 
-
-    private javax.swing.JLabel IconoCitaPend; Icono de citas pendientes
-
-    private javax.swing.JLabel IconoVerCitas; Icono de Ver citas
-
-    private javax.swing.JPanel Panel8Fondo; panel azul de fondo
-
-    private javax.swing.JPanel Panel8Inicio; panel gris donde el usuario-coordinador interactua 
-
-    private javax.swing.JLabel TextBienvenidaCoord;  Texto que indica bienvenida al usuario-coordinador
-*/

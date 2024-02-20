@@ -26,135 +26,136 @@ public class PerfilUsuario extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Panel10fondo = new javax.swing.JPanel();
-        Panel9Inicio = new javax.swing.JPanel();
-        IconoUsuario = new javax.swing.JLabel();
-        TextCuenta = new javax.swing.JLabel();
-        TextNombre = new javax.swing.JLabel();
-        TextCorreo = new javax.swing.JLabel();
-        TextContrase = new javax.swing.JLabel();
-        BotonEliminarCuenta = new javax.swing.JButton();
-        BotonEditNombre = new javax.swing.JButton();
-        BotonEditCorreo = new javax.swing.JButton();
-        BotonEditContrase = new javax.swing.JButton();
-        NombreProyec6 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Panel10fondo.setBackground(new java.awt.Color(0, 0, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
 
-        IconoUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario.png.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario.png.png"))); // NOI18N
 
-        TextCuenta.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextCuenta.setText("Mi cuenta");
+        jLabel3.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel3.setText("Mi cuenta");
 
-        TextNombre.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextNombre.setText("Nombre :");
+        jLabel4.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel4.setText("Nombre :");
 
-        TextCorreo.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextCorreo.setText("Correo :");
+        jLabel5.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel5.setText("Correo :");
 
-        TextContrase.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextContrase.setText("Contraseña :");
+        jLabel6.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel6.setText("Contraseña :");
 
-        BotonEliminarCuenta.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonEliminarCuenta.setText("Eliminar cuenta");
+        jButton1.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton1.setText("Eliminar cuenta");
 
-        BotonEditNombre.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonEditNombre.setText("Editar");
+        jButton2.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton2.setText("Editar");
 
-        BotonEditCorreo.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonEditCorreo.setText("Editar");
+        jButton3.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton3.setText("Editar");
 
-        BotonEditContrase.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonEditContrase.setText("Editar");
+        jButton4.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton4.setText("Editar");
 
-        javax.swing.GroupLayout Panel9InicioLayout = new javax.swing.GroupLayout(Panel9Inicio);
-        Panel9Inicio.setLayout(Panel9InicioLayout);
-        Panel9InicioLayout.setHorizontalGroup(
-            Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel9InicioLayout.createSequentialGroup()
-                .addGroup(Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel9InicioLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(IconoUsuario)
+                        .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TextCuenta))
-                    .addGroup(Panel9InicioLayout.createSequentialGroup()
+                        .addComponent(jLabel3))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
-                        .addGroup(Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Panel9InicioLayout.createSequentialGroup()
-                                .addComponent(TextContrase)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel6)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
-                                .addComponent(BotonEditContrase))
-                            .addGroup(Panel9InicioLayout.createSequentialGroup()
-                                .addComponent(TextNombre)
+                                .addComponent(jButton4))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel4)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BotonEditNombre))
-                            .addGroup(Panel9InicioLayout.createSequentialGroup()
-                                .addComponent(TextCorreo)
+                                .addComponent(jButton2))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel5)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BotonEditCorreo)))))
+                                .addComponent(jButton3)))))
                 .addGap(37, 37, 37))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Panel9InicioLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(BotonEliminarCuenta)
+                .addComponent(jButton1)
                 .addGap(18, 18, 18))
         );
-        Panel9InicioLayout.setVerticalGroup(
-            Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel9InicioLayout.createSequentialGroup()
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TextCuenta)
-                    .addComponent(IconoUsuario))
-                .addGroup(Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel9InicioLayout.createSequentialGroup()
-                        .addGroup(Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Panel9InicioLayout.createSequentialGroup()
-                                .addGroup(Panel9InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(TextNombre)
-                                    .addComponent(BotonEditNombre))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel2))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel4)
+                                    .addComponent(jButton2))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                                .addComponent(TextCorreo))
-                            .addGroup(Panel9InicioLayout.createSequentialGroup()
+                                .addComponent(jLabel5))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(BotonEditCorreo)))
+                                .addComponent(jButton3)))
                         .addGap(32, 32, 32)
-                        .addComponent(TextContrase))
-                    .addGroup(Panel9InicioLayout.createSequentialGroup()
+                        .addComponent(jLabel6))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(BotonEditContrase)))
+                        .addComponent(jButton4)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(BotonEliminarCuenta)
+                .addComponent(jButton1)
                 .addGap(10, 10, 10))
         );
 
-        NombreProyec6.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
-        NombreProyec6.setForeground(new java.awt.Color(255, 255, 255));
-        NombreProyec6.setText("cITEs");
+        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("cITEs");
 
-        javax.swing.GroupLayout Panel10fondoLayout = new javax.swing.GroupLayout(Panel10fondo);
-        Panel10fondo.setLayout(Panel10fondoLayout);
-        Panel10fondoLayout.setHorizontalGroup(
-            Panel10fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel10fondoLayout.createSequentialGroup()
-                .addGroup(Panel10fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel10fondoLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(24, 24, 24)
-                        .addComponent(Panel9Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(Panel10fondoLayout.createSequentialGroup()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(159, 159, 159)
-                        .addComponent(NombreProyec6)))
+                        .addComponent(jLabel1)))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
-        Panel10fondoLayout.setVerticalGroup(
-            Panel10fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel10fondoLayout.createSequentialGroup()
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(22, 22, 22)
-                .addComponent(NombreProyec6)
+                .addComponent(jLabel1)
                 .addGap(27, 27, 27)
-                .addComponent(Panel9Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(14, Short.MAX_VALUE))
         );
 
@@ -162,11 +163,11 @@ public class PerfilUsuario extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Panel10fondo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Panel10fondo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -208,44 +209,17 @@ public class PerfilUsuario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BotonEditContrase;
-    private javax.swing.JButton BotonEditCorreo;
-    private javax.swing.JButton BotonEditNombre;
-    private javax.swing.JButton BotonEliminarCuenta;
-    private javax.swing.JLabel IconoUsuario;
-    private javax.swing.JLabel NombreProyec6;
-    private javax.swing.JPanel Panel10fondo;
-    private javax.swing.JPanel Panel9Inicio;
-    private javax.swing.JLabel TextContrase;
-    private javax.swing.JLabel TextCorreo;
-    private javax.swing.JLabel TextCuenta;
-    private javax.swing.JLabel TextNombre;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
-
-/*
-  private javax.swing.JButton BotonEditContrase; Boton donde el usuario-coordinador indica que editara su contraseña
-
-
-    private javax.swing.JButton BotonEditCorreo;  Boton donde el usuario-coordinador indica que editara su direccion de correo
-
-    private javax.swing.JButton BotonEditNombre;  Boton donde el usuario-coordinador indica que editara su nombre
-
-    private javax.swing.JButton BotonEliminarCuenta;  Boton donde el usuario-coordinador indica que desea eliminar su cuenta
-
-    private javax.swing.JLabel IconoUsuario; Icono de perfil de usuario
-
-    private javax.swing.JLabel NombreProyec6; cITEs
-
-    private javax.swing.JPanel Panel10fondo; Panel azul de fondo
-
-    private javax.swing.JPanel Panel9Inicio; Panel gris donde el usuario-coordinador  interactua 
- 
-    private javax.swing.JLabel TextContrase; Texto donde se le indica al  usuario-coordinador su contraseña
-
-    private javax.swing.JLabel TextCorreo;  Texto donde se le indica al  usuario-coordinador su correo de carrera
-
-    private javax.swing.JLabel TextCuenta;  Texto donde se le indica al  usuario-coordinador su cuenta
-
-    private javax.swing.JLabel TextNombre;  Texto donde se le indica al  usuario-coordinador su nombre 
-*/

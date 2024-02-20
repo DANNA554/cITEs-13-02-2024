@@ -26,104 +26,99 @@ public class Inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        PanelFondo1 = new javax.swing.JPanel();
-        NombreProyec1 = new javax.swing.JLabel();
-        Panel1nicio = new javax.swing.JPanel();
-        InsertarIconoAlum = new javax.swing.JLabel();
-        insertarIconoCoord = new javax.swing.JLabel();
-        BotonAlumnoInicio = new javax.swing.JToggleButton();
-        BotonCoordInicio = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        PanelFondo1.setBackground(new java.awt.Color(0, 0, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
 
-        NombreProyec1.setBackground(new java.awt.Color(255, 255, 255));
-        NombreProyec1.setFont(new java.awt.Font("Eras Bold ITC", 0, 48)); // NOI18N
-        NombreProyec1.setForeground(new java.awt.Color(255, 255, 255));
-        NombreProyec1.setText("cITEs");
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 0, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("cITEs");
 
-        Panel1nicio.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        InsertarIconoAlum.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estud.png.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estud.png.png"))); // NOI18N
 
-        insertarIconoCoord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/coord.png.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/coord.png.png"))); // NOI18N
 
-        BotonAlumnoInicio.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
-        BotonAlumnoInicio.setText("ALUMNO");
+        jLabel4.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
+        jLabel4.setText("Alumno");
 
-        BotonCoordInicio.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
-        BotonCoordInicio.setText("COORDINADOR");
+        jLabel5.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
+        jLabel5.setText("Coordinador");
 
-        javax.swing.GroupLayout Panel1nicioLayout = new javax.swing.GroupLayout(Panel1nicio);
-        Panel1nicio.setLayout(Panel1nicioLayout);
-        Panel1nicioLayout.setHorizontalGroup(
-            Panel1nicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel1nicioLayout.createSequentialGroup()
-                .addGroup(Panel1nicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel1nicioLayout.createSequentialGroup()
-                        .addGap(67, 67, 67)
-                        .addComponent(InsertarIconoAlum)
-                        .addGap(149, 149, 149)
-                        .addComponent(insertarIconoCoord))
-                    .addGroup(Panel1nicioLayout.createSequentialGroup()
-                        .addGap(27, 27, 27)
-                        .addComponent(BotonAlumnoInicio)
-                        .addGap(84, 84, 84)
-                        .addComponent(BotonCoordInicio)))
-                .addContainerGap(28, Short.MAX_VALUE))
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(55, 55, 55)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(82, 82, 82))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
+                .addComponent(jLabel5)
+                .addGap(26, 26, 26))
         );
-        Panel1nicioLayout.setVerticalGroup(
-            Panel1nicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel1nicioLayout.createSequentialGroup()
-                .addGap(86, 86, 86)
-                .addGroup(Panel1nicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(InsertarIconoAlum)
-                    .addComponent(insertarIconoCoord))
-                .addGap(12, 12, 12)
-                .addGroup(Panel1nicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BotonAlumnoInicio)
-                    .addGroup(Panel1nicioLayout.createSequentialGroup()
-                        .addGap(8, 8, 8)
-                        .addComponent(BotonCoordInicio)))
-                .addContainerGap(48, Short.MAX_VALUE))
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(64, 64, 64)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(34, 34, 34)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel5))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout PanelFondo1Layout = new javax.swing.GroupLayout(PanelFondo1);
-        PanelFondo1.setLayout(PanelFondo1Layout);
-        PanelFondo1Layout.setHorizontalGroup(
-            PanelFondo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo1Layout.createSequentialGroup()
-                .addGroup(PanelFondo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelFondo1Layout.createSequentialGroup()
-                        .addGap(185, 185, 185)
-                        .addComponent(NombreProyec1))
-                    .addGroup(PanelFondo1Layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addComponent(Panel1nicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(35, 35, 35))
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(174, 174, 174)
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
-        PanelFondo1Layout.setVerticalGroup(
-            PanelFondo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo1Layout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(NombreProyec1)
-                .addGap(18, 18, 18)
-                .addComponent(Panel1nicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(PanelFondo1, javax.swing.GroupLayout.PREFERRED_SIZE, 473, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(23, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(PanelFondo1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -165,20 +160,12 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JToggleButton BotonAlumnoInicio;
-    private javax.swing.JButton BotonCoordInicio;
-    private javax.swing.JLabel InsertarIconoAlum;
-    private javax.swing.JLabel NombreProyec1;
-    private javax.swing.JPanel Panel1nicio;
-    private javax.swing.JPanel PanelFondo1;
-    private javax.swing.JLabel insertarIconoCoord;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
-
-//private javax.swing.JToggleButton BotonAlumnoInicio;: Boton para ingresar al inicio de alumno y/o se registre/cree cuenta
-   // private javax.swing.JButton BotonCoordInicio; : boton para ingresar al inicio Coordinador y/o cree cuenta
-    //private javax.swing.JLabel InsertarIconoAlum;:Icono de alumno
-   // private javax.swing.JLabel NombreProyecto;: cITEs
-    //private javax.swing.JPanel Panel1Inicio;  Panel azul de fondo
-    //private javax.swing.JPanel Panel2Inicio;  Panel gris donde estarn los botones e iconos
-    //private javax.swing.JLabel insertarIconoCoord;  : Icono de coordinador

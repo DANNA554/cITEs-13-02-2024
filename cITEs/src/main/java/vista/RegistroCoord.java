@@ -26,138 +26,138 @@ public class RegistroCoord extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        PanelFondo7 = new javax.swing.JPanel();
-        Panel7Inicio = new javax.swing.JPanel();
-        TextNombre = new javax.swing.JLabel();
-        IngresarNombreCoord = new javax.swing.JTextField();
-        TextNoEmplead = new javax.swing.JLabel();
-        IngresarNoEmpleado = new javax.swing.JTextField();
-        TextCorreoCarre = new javax.swing.JLabel();
-        IngresarCorreoCarrer = new javax.swing.JTextField();
-        TextContrase = new javax.swing.JLabel();
-        BotonRegisCoord = new javax.swing.JButton();
-        PasswordCoord = new javax.swing.JPasswordField();
-        NombreProyec5 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        PanelFondo7.setBackground(new java.awt.Color(0, 0, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
 
-        Panel7Inicio.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        TextNombre.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextNombre.setText("Nombre :");
+        jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel2.setText("Nombre :");
 
-        IngresarNombreCoord.addActionListener(new java.awt.event.ActionListener() {
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                IngresarNombreCoordActionPerformed(evt);
+                jTextField1ActionPerformed(evt);
             }
         });
 
-        TextNoEmplead.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextNoEmplead.setText("No. de empleado :");
+        jLabel3.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel3.setText("No. de empleado :");
 
-        IngresarNoEmpleado.addActionListener(new java.awt.event.ActionListener() {
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                IngresarNoEmpleadoActionPerformed(evt);
+                jTextField2ActionPerformed(evt);
             }
         });
 
-        TextCorreoCarre.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextCorreoCarre.setText("Correo de carrera:");
+        jLabel4.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel4.setText("Correo de carrera:");
 
-        TextContrase.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        TextContrase.setText("Contraseña :");
+        jLabel5.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jLabel5.setText("Contraseña :");
 
-        BotonRegisCoord.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonRegisCoord.setText("Registrarme");
+        jButton1.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton1.setText("Registrarme");
 
-        PasswordCoord.setText("jPasswordField1");
+        jPasswordField1.setText("jPasswordField1");
 
-        javax.swing.GroupLayout Panel7InicioLayout = new javax.swing.GroupLayout(Panel7Inicio);
-        Panel7Inicio.setLayout(Panel7InicioLayout);
-        Panel7InicioLayout.setHorizontalGroup(
-            Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel7InicioLayout.createSequentialGroup()
-                .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel7InicioLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(124, 124, 124)
-                        .addComponent(BotonRegisCoord))
-                    .addGroup(Panel7InicioLayout.createSequentialGroup()
-                        .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Panel7InicioLayout.createSequentialGroup()
+                        .addComponent(jButton1))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(TextNoEmplead))
-                            .addGroup(Panel7InicioLayout.createSequentialGroup()
+                                .addComponent(jLabel3))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(36, 36, 36)
-                                .addComponent(TextNombre)))
+                                .addComponent(jLabel2)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(IngresarNombreCoord, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(IngresarNoEmpleado, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(Panel7InicioLayout.createSequentialGroup()
-                        .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Panel7InicioLayout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(TextCorreoCarre))
-                            .addGroup(Panel7InicioLayout.createSequentialGroup()
+                                .addComponent(jLabel4))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(28, 28, 28)
-                                .addComponent(TextContrase)))
+                                .addComponent(jLabel5)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(IngresarCorreoCarrer)
-                            .addComponent(PasswordCoord, javax.swing.GroupLayout.DEFAULT_SIZE, 209, Short.MAX_VALUE))))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jTextField3)
+                            .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 209, Short.MAX_VALUE))))
                 .addContainerGap(40, Short.MAX_VALUE))
         );
-        Panel7InicioLayout.setVerticalGroup(
-            Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel7InicioLayout.createSequentialGroup()
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(13, 13, 13)
-                .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TextNombre)
-                    .addComponent(IngresarNombreCoord, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TextNoEmplead)
-                    .addComponent(IngresarNoEmpleado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel3)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TextCorreoCarre)
-                    .addComponent(IngresarCorreoCarrer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel4)
+                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Panel7InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TextContrase)
-                    .addComponent(PasswordCoord, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(BotonRegisCoord)
+                .addComponent(jButton1)
                 .addContainerGap(25, Short.MAX_VALUE))
         );
 
-        NombreProyec5.setFont(new java.awt.Font("Eras Bold ITC", 1, 36)); // NOI18N
-        NombreProyec5.setForeground(new java.awt.Color(255, 255, 255));
-        NombreProyec5.setText("cITEs");
+        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("cITEs");
 
-        javax.swing.GroupLayout PanelFondo7Layout = new javax.swing.GroupLayout(PanelFondo7);
-        PanelFondo7.setLayout(PanelFondo7Layout);
-        PanelFondo7Layout.setHorizontalGroup(
-            PanelFondo7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo7Layout.createSequentialGroup()
-                .addGroup(PanelFondo7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelFondo7Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(23, 23, 23)
-                        .addComponent(Panel7Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(PanelFondo7Layout.createSequentialGroup()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(162, 162, 162)
-                        .addComponent(NombreProyec5)))
+                        .addComponent(jLabel1)))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
-        PanelFondo7Layout.setVerticalGroup(
-            PanelFondo7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo7Layout.createSequentialGroup()
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(32, 32, 32)
-                .addComponent(NombreProyec5)
+                .addComponent(jLabel1)
                 .addGap(18, 18, 18)
-                .addComponent(Panel7Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(38, Short.MAX_VALUE))
         );
 
@@ -167,23 +167,23 @@ public class RegistroCoord extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(PanelFondo7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(PanelFondo7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void IngresarNombreCoordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarNombreCoordActionPerformed
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_IngresarNombreCoordActionPerformed
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
-    private void IngresarNoEmpleadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarNoEmpleadoActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_IngresarNoEmpleadoActionPerformed
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -221,43 +221,17 @@ public class RegistroCoord extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BotonRegisCoord;
-    private javax.swing.JTextField IngresarCorreoCarrer;
-    private javax.swing.JTextField IngresarNoEmpleado;
-    private javax.swing.JTextField IngresarNombreCoord;
-    private javax.swing.JLabel NombreProyec5;
-    private javax.swing.JPanel Panel7Inicio;
-    private javax.swing.JPanel PanelFondo7;
-    private javax.swing.JPasswordField PasswordCoord;
-    private javax.swing.JLabel TextContrase;
-    private javax.swing.JLabel TextCorreoCarre;
-    private javax.swing.JLabel TextNoEmplead;
-    private javax.swing.JLabel TextNombre;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
     // End of variables declaration//GEN-END:variables
 }
-
-/*
-private javax.swing.JButton BotonRegisCoord; Boton donde el usuario-Coordinador indica su registro terminado
-
-    private javax.swing.JTextField IngresarCorreoCarrer;: Espacio donde el  usuario-Coordinador ingresa su correo de carrera
-
-    private javax.swing.JTextField IngresarNoEmpleado;   Espacio donde el  usuario-Coordinador ingresa su  no. empleado
-
-    private javax.swing.JTextField IngresarNombreCoord; Espacio donde el  usuario-Coordinador ingresa su nombre
-
-    private javax.swing.JLabel NombreProyec5; cITEs
-
-    private javax.swing.JPanel Panel7Inicio; Panel gris donde el  usuario-Coordinador interactua
-
-    private javax.swing.JPanel PanelFondo7; Panel azul de fondo 
-
-    private javax.swing.JPasswordField PasswordCoord;  Espacio donde el  usuario-Coordinador ingresa su contraseña
-
-    private javax.swing.JLabel TextContrase;   Texto donde se le indical al  usuario-Coordinador ingresa su contraseña
-
-    private javax.swing.JLabel TextCorreoCarre;    Texto donde se le indical al  usuario-Coordinador ingresa su correo de carrera/coordinacion
-
-    private javax.swing.JLabel TextNoEmplead;usuario-Coordinador  Texto donde se le indical al  usuario-Coordinador ingresar su no. empleado
-
-    private javax.swing.JLabel TextNombre;usuario-Coordinador Texto donde se le indical al  usuario-Coordinador ingresa su nombre
-*/

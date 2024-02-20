@@ -26,107 +26,107 @@ public class Coordinador extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        PanelFondo6 = new javax.swing.JPanel();
-        Panel6Inicio = new javax.swing.JPanel();
-        textNomEmpleado1 = new javax.swing.JLabel();
-        NoEmpleado = new javax.swing.JTextField();
-        TextContra = new javax.swing.JLabel();
-        BotonLogin = new javax.swing.JButton();
-        BotonRegistroCoord = new javax.swing.JButton();
-        Password = new javax.swing.JPasswordField();
-        NombreProyec4 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        PanelFondo6.setBackground(new java.awt.Color(0, 0, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
 
-        Panel6Inicio.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        textNomEmpleado1.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
-        textNomEmpleado1.setText("No. de empleado :");
+        jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
+        jLabel2.setText("No. de empleado :");
 
-        NoEmpleado.addActionListener(new java.awt.event.ActionListener() {
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NoEmpleadoActionPerformed(evt);
+                jTextField1ActionPerformed(evt);
             }
         });
 
-        TextContra.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
-        TextContra.setText("Contraseña :");
+        jLabel3.setFont(new java.awt.Font("Eras Bold ITC", 1, 18)); // NOI18N
+        jLabel3.setText("Contraseña :");
 
-        BotonLogin.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonLogin.setText("Login");
+        jButton1.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton1.setText("Login");
 
-        BotonRegistroCoord.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        BotonRegistroCoord.setText("¿No estas registrado?. Registrate aqui");
+        jButton2.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
+        jButton2.setText("¿No estas registrado?. Registrate aqui");
 
-        Password.setText("jPasswordField1");
+        jPasswordField1.setText("jPasswordField1");
 
-        javax.swing.GroupLayout Panel6InicioLayout = new javax.swing.GroupLayout(Panel6Inicio);
-        Panel6Inicio.setLayout(Panel6InicioLayout);
-        Panel6InicioLayout.setHorizontalGroup(
-            Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel6InicioLayout.createSequentialGroup()
-                .addGroup(Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Panel6InicioLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(textNomEmpleado1)
-                            .addComponent(TextContra))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3))
                         .addGap(18, 18, 18)
-                        .addGroup(Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(NoEmpleado)
-                            .addComponent(Password, javax.swing.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)))
-                    .addGroup(Panel6InicioLayout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jTextField1)
+                            .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(143, 143, 143)
-                        .addComponent(BotonLogin))
-                    .addGroup(Panel6InicioLayout.createSequentialGroup()
+                        .addComponent(jButton1))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(65, 65, 65)
-                        .addComponent(BotonRegistroCoord)))
+                        .addComponent(jButton2)))
                 .addContainerGap(15, Short.MAX_VALUE))
         );
-        Panel6InicioLayout.setVerticalGroup(
-            Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Panel6InicioLayout.createSequentialGroup()
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(40, 40, 40)
-                .addGroup(Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(textNomEmpleado1)
-                    .addComponent(NoEmpleado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(27, 27, 27)
-                .addGroup(Panel6InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TextContra)
-                    .addComponent(Password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(BotonLogin)
+                .addComponent(jButton1)
                 .addGap(18, 18, 18)
-                .addComponent(BotonRegistroCoord)
+                .addComponent(jButton2)
                 .addContainerGap(26, Short.MAX_VALUE))
         );
 
-        NombreProyec4.setFont(new java.awt.Font("Eras Bold ITC", 1, 36)); // NOI18N
-        NombreProyec4.setForeground(new java.awt.Color(255, 255, 255));
-        NombreProyec4.setText("cITEs");
+        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("cITEs");
 
-        javax.swing.GroupLayout PanelFondo6Layout = new javax.swing.GroupLayout(PanelFondo6);
-        PanelFondo6.setLayout(PanelFondo6Layout);
-        PanelFondo6Layout.setHorizontalGroup(
-            PanelFondo6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo6Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(28, 28, 28)
-                .addComponent(Panel6Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(30, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelFondo6Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(NombreProyec4)
+                .addComponent(jLabel1)
                 .addGap(181, 181, 181))
         );
-        PanelFondo6Layout.setVerticalGroup(
-            PanelFondo6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo6Layout.createSequentialGroup()
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addComponent(NombreProyec4)
+                .addComponent(jLabel1)
                 .addGap(18, 18, 18)
-                .addComponent(Panel6Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
@@ -134,19 +134,19 @@ public class Coordinador extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(PanelFondo6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(PanelFondo6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void NoEmpleadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoEmpleadoActionPerformed
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_NoEmpleadoActionPerformed
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -184,34 +184,14 @@ public class Coordinador extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BotonLogin;
-    private javax.swing.JButton BotonRegistroCoord;
-    private javax.swing.JTextField NoEmpleado;
-    private javax.swing.JLabel NombreProyec4;
-    private javax.swing.JPanel Panel6Inicio;
-    private javax.swing.JPanel PanelFondo6;
-    private javax.swing.JPasswordField Password;
-    private javax.swing.JLabel TextContra;
-    private javax.swing.JLabel textNomEmpleado1;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
-
-/*
-  private javax.swing.JButton BotonLogin; : boton para entrar login
-
-    private javax.swing.JButton BotonRegistroCoord; boton para registrar perfil coordinador
-
-    private javax.swing.JTextField NoEmpleado; : Texto donde indica el No. de empleado
-
-    private javax.swing.JLabel NombreProyec4; : cITEs
-
-    private javax.swing.JPanel Panel6Inicio; : Panel secundario donde el usuario hara interaccion de registro
-
-    private javax.swing.JPanel PanelFondo6; : panel de fondo azul
-
-    private javax.swing.JPasswordField Password; : : ingresar contraseña
-
-    private javax.swing.JLabel TextContra; :   Texto donde indica la contraseña del usuario (coordinador)
-
-    private javax.swing.JLabel textNomEmpleado1; :  Texto donde indica El nombre de empleado a ingresar (coordinador)
-*/
