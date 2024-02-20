@@ -8,12 +8,12 @@ package vista;
  *
  * @author Delvi
  */
-public class Alumno extends javax.swing.JFrame {
+public class InicioAlumnos extends javax.swing.JFrame {
 
     /**
      * Creates new form CitasAlum
      */
-    public Alumno() {
+    public InicioAlumnos() {
         initComponents();
     }
 
@@ -30,12 +30,15 @@ public class Alumno extends javax.swing.JFrame {
         jpanelFondo = new javax.swing.JPanel();
         BotonRegresar = new javax.swing.JButton();
         BotonAceptar = new javax.swing.JButton();
-        lblCorreo = new javax.swing.JLabel();
-        lblContrasenia = new javax.swing.JLabel();
-        jlblBienvenido = new javax.swing.JLabel();
-        txtfieldcorreo = new javax.swing.JTextField();
-        passfieldContrasenia = new javax.swing.JPasswordField();
-        btnMostrarContrasenia = new javax.swing.JButton();
+        lblSleccionCarrera = new javax.swing.JLabel();
+        lblHorariosD = new javax.swing.JLabel();
+        cBoxCarrera = new javax.swing.JComboBox<>();
+        cBoxhorarios = new javax.swing.JComboBox<>();
+        lblHorariosD1 = new javax.swing.JLabel();
+        cBoxMotivos = new javax.swing.JComboBox<>();
+        lblHorariosD2 = new javax.swing.JLabel();
+        txtFieldDetalles = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
         textCitasRegis = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -61,75 +64,87 @@ public class Alumno extends javax.swing.JFrame {
             }
         });
 
-        lblCorreo.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
-        lblCorreo.setText("Correo Institucional:");
+        lblSleccionCarrera.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblSleccionCarrera.setText("Seleccione la coordinacion de su carrera: ");
 
-        lblContrasenia.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
-        lblContrasenia.setText("Contraseña:");
+        lblHorariosD.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblHorariosD.setText("Horarios Disponibles:");
 
-        jlblBienvenido.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
-        jlblBienvenido.setForeground(new java.awt.Color(0, 0, 153));
-        jlblBienvenido.setText("Bienvenido!");
+        cBoxCarrera.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        btnMostrarContrasenia.setText(".");
-        btnMostrarContrasenia.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnMostrarContraseniaActionPerformed(evt);
-            }
-        });
+        cBoxhorarios.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        lblHorariosD1.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblHorariosD1.setText("Motivos de la Cita:");
+
+        cBoxMotivos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        lblHorariosD2.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblHorariosD2.setText("Detalles de la Cita (Opcional):");
+
+        jLabel1.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 153));
+        jLabel1.setText("Rellene sus datos para agendar su cita");
 
         javax.swing.GroupLayout jpanelFondoLayout = new javax.swing.GroupLayout(jpanelFondo);
         jpanelFondo.setLayout(jpanelFondoLayout);
         jpanelFondoLayout.setHorizontalGroup(
             jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelFondoLayout.createSequentialGroup()
-                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(jpanelFondoLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(BotonRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(BotonAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(26, 26, 26))
+            .addGroup(jpanelFondoLayout.createSequentialGroup()
+                .addGap(63, 63, 63)
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jpanelFondoLayout.createSequentialGroup()
-                        .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelFondoLayout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(lblContrasenia))
-                            .addGroup(jpanelFondoLayout.createSequentialGroup()
-                                .addGap(63, 63, 63)
-                                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(BotonRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblCorreo))))
+                        .addComponent(lblHorariosD1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtfieldcorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 420, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jpanelFondoLayout.createSequentialGroup()
-                                .addComponent(passfieldContrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, 339, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
-                                .addComponent(btnMostrarContrasenia))))
+                        .addComponent(cBoxMotivos, javax.swing.GroupLayout.PREFERRED_SIZE, 420, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jpanelFondoLayout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(BotonAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(9, 9, 9)))
-                .addGap(60, 60, 60))
+                        .addComponent(lblHorariosD)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(cBoxhorarios, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpanelFondoLayout.createSequentialGroup()
+                        .addComponent(lblSleccionCarrera)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(cBoxCarrera, javax.swing.GroupLayout.PREFERRED_SIZE, 283, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtFieldDetalles, javax.swing.GroupLayout.PREFERRED_SIZE, 758, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblHorariosD2))
+                .addContainerGap(63, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelFondoLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jlblBienvenido)
-                .addGap(289, 289, 289))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(191, 191, 191))
         );
         jpanelFondoLayout.setVerticalGroup(
             jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelFondoLayout.createSequentialGroup()
-                .addGap(51, 51, 51)
-                .addComponent(jlblBienvenido)
-                .addGap(44, 44, 44)
+                .addGap(47, 47, 47)
+                .addComponent(jLabel1)
+                .addGap(46, 46, 46)
                 .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblCorreo)
-                    .addComponent(txtfieldcorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(43, 43, 43)
+                    .addComponent(lblSleccionCarrera)
+                    .addComponent(cBoxCarrera, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblHorariosD, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(cBoxhorarios, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 24, Short.MAX_VALUE)
                 .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblContrasenia)
-                    .addComponent(passfieldContrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnMostrarContrasenia))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
+                    .addComponent(lblHorariosD1)
+                    .addComponent(cBoxMotivos, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(lblHorariosD2)
+                .addGap(18, 18, 18)
+                .addComponent(txtFieldDetalles, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                 .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BotonAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BotonRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(117, 117, 117))
+                    .addComponent(BotonRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BotonAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35))
         );
 
         textCitasRegis.setFont(new java.awt.Font("Eras Bold ITC", 1, 48)); // NOI18N
@@ -140,14 +155,14 @@ public class Alumno extends javax.swing.JFrame {
         PanelFondo5.setLayout(PanelFondo5Layout);
         PanelFondo5Layout.setHorizontalGroup(
             PanelFondo5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelFondo5Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelFondo5Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(textCitasRegis)
                 .addGap(436, 436, 436))
             .addGroup(PanelFondo5Layout.createSequentialGroup()
-                .addGap(129, 129, 129)
+                .addGap(62, 62, 62)
                 .addComponent(jpanelFondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(129, Short.MAX_VALUE))
+                .addContainerGap(66, Short.MAX_VALUE))
         );
         PanelFondo5Layout.setVerticalGroup(
             PanelFondo5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -156,7 +171,7 @@ public class Alumno extends javax.swing.JFrame {
                 .addComponent(textCitasRegis)
                 .addGap(18, 18, 18)
                 .addComponent(jpanelFondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(155, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -186,10 +201,6 @@ public class Alumno extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_BotonAceptarActionPerformed
 
-    private void btnMostrarContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarContraseniaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnMostrarContraseniaActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -207,23 +218,21 @@ public class Alumno extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Alumno.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InicioAlumnos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Alumno.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InicioAlumnos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Alumno.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InicioAlumnos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Alumno.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(InicioAlumnos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Alumno().setVisible(true);
+                new InicioAlumnos().setVisible(true);
             }
         });
     }
@@ -232,14 +241,17 @@ public class Alumno extends javax.swing.JFrame {
     private javax.swing.JButton BotonAceptar;
     private javax.swing.JButton BotonRegresar;
     private javax.swing.JPanel PanelFondo5;
-    private javax.swing.JButton btnMostrarContrasenia;
-    private javax.swing.JLabel jlblBienvenido;
+    private javax.swing.JComboBox<String> cBoxCarrera;
+    private javax.swing.JComboBox<String> cBoxMotivos;
+    private javax.swing.JComboBox<String> cBoxhorarios;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jpanelFondo;
-    private javax.swing.JLabel lblContrasenia;
-    private javax.swing.JLabel lblCorreo;
-    private javax.swing.JPasswordField passfieldContrasenia;
+    private javax.swing.JLabel lblHorariosD;
+    private javax.swing.JLabel lblHorariosD1;
+    private javax.swing.JLabel lblHorariosD2;
+    private javax.swing.JLabel lblSleccionCarrera;
     private javax.swing.JLabel textCitasRegis;
-    private javax.swing.JTextField txtfieldcorreo;
+    private javax.swing.JTextField txtFieldDetalles;
     // End of variables declaration//GEN-END:variables
 }
 

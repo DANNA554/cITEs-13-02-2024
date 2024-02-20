@@ -11,7 +11,7 @@ package vista;
 public class PerfilUsuario extends javax.swing.JFrame {
 
     /**
-     * Creates new form PerfilUsuario
+     * Creates new form CitasAlum
      */
     public PerfilUsuario() {
         initComponents();
@@ -26,152 +26,205 @@ public class PerfilUsuario extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        PanelFondo5 = new javax.swing.JPanel();
+        jpanelFondo = new javax.swing.JPanel();
+        BotonRegresar = new javax.swing.JButton();
+        BotonGuardar = new javax.swing.JButton();
+        lblNombre = new javax.swing.JLabel();
+        lblContrasenia = new javax.swing.JLabel();
+        lblPerfil = new javax.swing.JLabel();
+        txtfieldNombre = new javax.swing.JTextField();
+        passfieldContrasenia = new javax.swing.JPasswordField();
+        btnMostrarContrasenia = new javax.swing.JButton();
+        txtfieldCorreo = new javax.swing.JTextField();
+        lblCorreo = new javax.swing.JLabel();
+        lblUsuario = new javax.swing.JLabel();
+        lblmiCuenta = new javax.swing.JLabel();
+        textCitasRegis = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
+        PanelFondo5.setBackground(new java.awt.Color(0, 110, 190));
+        PanelFondo5.setPreferredSize(new java.awt.Dimension(1024, 768));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario.png.png"))); // NOI18N
+        jpanelFondo.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel3.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jLabel3.setText("Mi cuenta");
+        BotonRegresar.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        BotonRegresar.setText("Regresar");
+        BotonRegresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotonRegresarActionPerformed(evt);
+            }
+        });
 
-        jLabel4.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jLabel4.setText("Nombre :");
+        BotonGuardar.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
+        BotonGuardar.setText("Guardar");
+        BotonGuardar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotonGuardarActionPerformed(evt);
+            }
+        });
 
-        jLabel5.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jLabel5.setText("Correo :");
+        lblNombre.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblNombre.setText("Nombre:");
 
-        jLabel6.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jLabel6.setText("Contraseña :");
+        lblContrasenia.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblContrasenia.setText("Contraseña:");
 
-        jButton1.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jButton1.setText("Eliminar cuenta");
+        lblPerfil.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
+        lblPerfil.setForeground(new java.awt.Color(0, 0, 153));
+        lblPerfil.setText("Perfil");
 
-        jButton2.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jButton2.setText("Editar");
+        btnMostrarContrasenia.setText(".");
+        btnMostrarContrasenia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMostrarContraseniaActionPerformed(evt);
+            }
+        });
 
-        jButton3.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jButton3.setText("Editar");
+        lblCorreo.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblCorreo.setText("Correo Institucional:");
 
-        jButton4.setFont(new java.awt.Font("Eras Bold ITC", 1, 12)); // NOI18N
-        jButton4.setText("Editar");
+        lblUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario.png.png"))); // NOI18N
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel3))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
-                                .addComponent(jButton4))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton2))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton3)))))
-                .addGap(37, 37, 37))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(18, 18, 18))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel2))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel4)
-                                    .addComponent(jButton2))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                                .addComponent(jLabel5))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(jButton3)))
-                        .addGap(32, 32, 32)
-                        .addComponent(jLabel6))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton4)))
+        lblmiCuenta.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblmiCuenta.setText("Mi Cuenta:");
+
+        javax.swing.GroupLayout jpanelFondoLayout = new javax.swing.GroupLayout(jpanelFondo);
+        jpanelFondo.setLayout(jpanelFondoLayout);
+        jpanelFondoLayout.setHorizontalGroup(
+            jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpanelFondoLayout.createSequentialGroup()
+                .addGap(30, 30, 30)
+                .addComponent(lblUsuario)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1)
-                .addGap(10, 10, 10))
+                .addComponent(lblmiCuenta)
+                .addGap(136, 136, 136)
+                .addComponent(lblPerfil)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jpanelFondoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpanelFondoLayout.createSequentialGroup()
+                        .addGap(82, 82, 82)
+                        .addComponent(BotonRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(BotonGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(83, 83, 83))
+                    .addGroup(jpanelFondoLayout.createSequentialGroup()
+                        .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(lblContrasenia)
+                                .addComponent(lblCorreo))
+                            .addComponent(lblNombre, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jpanelFondoLayout.createSequentialGroup()
+                                .addComponent(txtfieldNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 420, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(114, 114, 114))
+                            .addGroup(jpanelFondoLayout.createSequentialGroup()
+                                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtfieldCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 420, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jpanelFondoLayout.createSequentialGroup()
+                                        .addComponent(passfieldContrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, 339, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(31, 31, 31)
+                                        .addComponent(btnMostrarContrasenia)))
+                                .addGap(0, 0, Short.MAX_VALUE))))))
         );
-
-        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("cITEs");
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(159, 159, 159)
-                        .addComponent(jLabel1)))
-                .addContainerGap(23, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(jLabel1)
+        jpanelFondoLayout.setVerticalGroup(
+            jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelFondoLayout.createSequentialGroup()
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpanelFondoLayout.createSequentialGroup()
+                        .addGap(69, 69, 69)
+                        .addComponent(lblUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jpanelFondoLayout.createSequentialGroup()
+                            .addGap(48, 48, 48)
+                            .addComponent(lblPerfil)
+                            .addGap(50, 50, 50))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelFondoLayout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(lblmiCuenta)
+                            .addGap(25, 25, 25))))
                 .addGap(27, 27, 27)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(14, Short.MAX_VALUE))
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblNombre)
+                    .addComponent(txtfieldNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(25, 25, 25)
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblCorreo)
+                    .addComponent(txtfieldCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblContrasenia)
+                    .addComponent(passfieldContrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnMostrarContrasenia))
+                .addGap(122, 122, 122)
+                .addGroup(jpanelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BotonRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BotonGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(64, Short.MAX_VALUE))
+        );
+
+        textCitasRegis.setFont(new java.awt.Font("Eras Bold ITC", 1, 48)); // NOI18N
+        textCitasRegis.setForeground(new java.awt.Color(255, 255, 255));
+        textCitasRegis.setText("cITEs");
+
+        javax.swing.GroupLayout PanelFondo5Layout = new javax.swing.GroupLayout(PanelFondo5);
+        PanelFondo5.setLayout(PanelFondo5Layout);
+        PanelFondo5Layout.setHorizontalGroup(
+            PanelFondo5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PanelFondo5Layout.createSequentialGroup()
+                .addContainerGap(134, Short.MAX_VALUE)
+                .addGroup(PanelFondo5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelFondo5Layout.createSequentialGroup()
+                        .addComponent(textCitasRegis)
+                        .addGap(436, 436, 436))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelFondo5Layout.createSequentialGroup()
+                        .addComponent(jpanelFondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(130, 130, 130))))
+        );
+        PanelFondo5Layout.setVerticalGroup(
+            PanelFondo5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PanelFondo5Layout.createSequentialGroup()
+                .addGap(42, 42, 42)
+                .addComponent(textCitasRegis)
+                .addGap(18, 18, 18)
+                .addComponent(jpanelFondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(79, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(PanelFondo5, javax.swing.GroupLayout.DEFAULT_SIZE, 1012, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 6, Short.MAX_VALUE)
+                .addComponent(PanelFondo5, javax.swing.GroupLayout.PREFERRED_SIZE, 780, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotonRegresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonRegresarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BotonRegresarActionPerformed
+
+    private void btnMostrarContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarContraseniaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnMostrarContraseniaActionPerformed
+
+    private void BotonGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonGuardarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BotonGuardarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -199,6 +252,21 @@ public class PerfilUsuario extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(PerfilUsuario.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -209,17 +277,36 @@ public class PerfilUsuario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JButton BotonGuardar;
+    private javax.swing.JButton BotonRegresar;
+    private javax.swing.JPanel PanelFondo5;
+    private javax.swing.JButton btnMostrarContrasenia;
+    private javax.swing.JPanel jpanelFondo;
+    private javax.swing.JLabel lblContrasenia;
+    private javax.swing.JLabel lblCorreo;
+    private javax.swing.JLabel lblNombre;
+    private javax.swing.JLabel lblPerfil;
+    private javax.swing.JLabel lblUsuario;
+    private javax.swing.JLabel lblmiCuenta;
+    private javax.swing.JPasswordField passfieldContrasenia;
+    private javax.swing.JLabel textCitasRegis;
+    private javax.swing.JTextField txtfieldCorreo;
+    private javax.swing.JTextField txtfieldNombre;
     // End of variables declaration//GEN-END:variables
 }
+
+/*
+private javax.swing.JButton BotonAceptar;  Bonton de aceptar las citas registradas por el usuario-alumno
+
+    private javax.swing.JButton BotonRegresar; bonton de aregresar de ver las citas registradas por el usuario-alumno
+
+    private javax.swing.JPanel MostrarCitasAlum; Panel predeterminado para mostrar la tabla de citas registradas p/alumno
+
+    private javax.swing.JPanel PanelFondo5; panel azul de fondo
+
+    private javax.swing.JScrollPane jScrollPane1;
+
+    private javax.swing.JTable jTable1;  
+
+    private javax.swing.JLabel textCitasRegis; Texto que indica que el usuario-alumno a ingresado a la ventana de Citas alumno
+*/

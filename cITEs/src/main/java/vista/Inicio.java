@@ -26,103 +26,97 @@ public class Inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        PanelFondo1 = new javax.swing.JPanel();
+        NombreProyec1 = new javax.swing.JLabel();
+        btnCoordinadores = new javax.swing.JButton();
+        btnUsuario = new javax.swing.JButton();
+        lblCoordinador = new javax.swing.JLabel();
+        lblite = new javax.swing.JLabel();
+        lblslogan = new javax.swing.JLabel();
+        lblUsuario1 = new javax.swing.JLabel();
+        imgTecnm = new javax.swing.JLabel();
+        subfondo = new javax.swing.JLabel();
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/TecNM_logoaz.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(5, 5));
+        setMinimumSize(new java.awt.Dimension(1024, 768));
+        setPreferredSize(new java.awt.Dimension(1024, 768));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
+        PanelFondo1.setBackground(new java.awt.Color(0, 39, 68));
+        PanelFondo1.setMinimumSize(new java.awt.Dimension(1024, 768));
+        PanelFondo1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 0, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("cITEs");
+        NombreProyec1.setBackground(new java.awt.Color(255, 255, 255));
+        NombreProyec1.setFont(new java.awt.Font("Eras Bold ITC", 0, 56)); // NOI18N
+        NombreProyec1.setForeground(new java.awt.Color(255, 255, 255));
+        NombreProyec1.setText("cITEs");
+        PanelFondo1.add(NombreProyec1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 80, 550, 60));
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        btnCoordinadores.setBackground(new java.awt.Color(19, 35, 47));
+        btnCoordinadores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/coord.png.png"))); // NOI18N
+        btnCoordinadores.setBorderPainted(false);
+        btnCoordinadores.setFocusCycleRoot(true);
+        btnCoordinadores.setFocusPainted(false);
+        btnCoordinadores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCoordinadoresActionPerformed(evt);
+            }
+        });
+        PanelFondo1.add(btnCoordinadores, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 290, 140, 120));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estud.png.png"))); // NOI18N
+        btnUsuario.setBackground(new java.awt.Color(15, 35, 50));
+        btnUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario.png.png"))); // NOI18N
+        btnUsuario.setBorderPainted(false);
+        btnUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUsuarioActionPerformed(evt);
+            }
+        });
+        PanelFondo1.add(btnUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 290, 150, 120));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/coord.png.png"))); // NOI18N
+        lblCoordinador.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 30)); // NOI18N
+        lblCoordinador.setForeground(new java.awt.Color(255, 255, 255));
+        lblCoordinador.setText("Coordinador");
+        PanelFondo1.add(lblCoordinador, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 430, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
-        jLabel4.setText("Alumno");
+        lblite.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblite.setForeground(new java.awt.Color(255, 255, 255));
+        lblite.setText("Instituto Tecnologico de Ensenada");
+        PanelFondo1.add(lblite, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 680, -1, 30));
 
-        jLabel5.setFont(new java.awt.Font("Eras Bold ITC", 1, 24)); // NOI18N
-        jLabel5.setText("Coordinador");
+        lblslogan.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        lblslogan.setForeground(new java.awt.Color(255, 255, 255));
+        lblslogan.setText("!Agenda tu cita y evita las esperas!");
+        PanelFondo1.add(lblslogan, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, -1, 30));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(55, 55, 55)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel3)
-                .addGap(82, 82, 82))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
-                .addComponent(jLabel5)
-                .addGap(26, 26, 26))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(64, 64, 64)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(34, 34, 34)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5))
-                .addContainerGap(105, Short.MAX_VALUE))
-        );
+        lblUsuario1.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 30)); // NOI18N
+        lblUsuario1.setForeground(new java.awt.Color(255, 255, 255));
+        lblUsuario1.setText("Usuario");
+        PanelFondo1.add(lblUsuario1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 430, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(174, 174, 174)
-                        .addComponent(jLabel1))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(33, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        imgTecnm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/TecNM_logoaz.png"))); // NOI18N
+        PanelFondo1.add(imgTecnm, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 470, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
+        subfondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/abstract-luxurious-dark-navy-blue-background-with-golden-line-elegant-modern-background-illustration-vector.jpg"))); // NOI18N
+        subfondo.setText("jLabel2");
+        PanelFondo1.add(subfondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-350, -210, 1710, 1190));
+
+        getContentPane().add(PanelFondo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1150, 730));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCoordinadoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCoordinadoresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCoordinadoresActionPerformed
+
+    private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnUsuarioActionPerformed
 
     /**
      * @param args the command line arguments
@@ -160,12 +154,24 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel NombreProyec1;
+    private javax.swing.JPanel PanelFondo1;
+    private javax.swing.JButton btnCoordinadores;
+    private javax.swing.JButton btnUsuario;
+    private javax.swing.JLabel imgTecnm;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel lblCoordinador;
+    private javax.swing.JLabel lblUsuario1;
+    private javax.swing.JLabel lblite;
+    private javax.swing.JLabel lblslogan;
+    private javax.swing.JLabel subfondo;
     // End of variables declaration//GEN-END:variables
 }
+
+//private javax.swing.JToggleButton BotonAlumnoInicio;: Boton para ingresar al inicio de alumno y/o se registre/cree cuenta
+   // private javax.swing.JButton BotonCoordInicio; : boton para ingresar al inicio Coordinador y/o cree cuenta
+    //private javax.swing.JLabel InsertarIconoAlum;:Icono de alumno
+   // private javax.swing.JLabel NombreProyecto;: cITEs
+    //private javax.swing.JPanel Panel1Inicio;  Panel azul de fondo
+    //private javax.swing.JPanel Panel2Inicio;  Panel gris donde estarn los botones e iconos
+    //private javax.swing.JLabel insertarIconoCoord;  : Icono de coordinador
