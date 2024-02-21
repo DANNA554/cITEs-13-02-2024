@@ -26,7 +26,6 @@ public class InicioCoord extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
         PanelFondo1 = new javax.swing.JPanel();
         NombreProyec1 = new javax.swing.JLabel();
         btnVerPendientes = new javax.swing.JButton();
@@ -37,8 +36,6 @@ public class InicioCoord extends javax.swing.JFrame {
         lblVerCitas = new javax.swing.JLabel();
         imgTecnm = new javax.swing.JLabel();
         subfondo = new javax.swing.JLabel();
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/TecNM_logoaz.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1024, 768));
@@ -55,7 +52,7 @@ public class InicioCoord extends javax.swing.JFrame {
         PanelFondo1.add(NombreProyec1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 80, 550, 60));
 
         btnVerPendientes.setBackground(new java.awt.Color(19, 35, 47));
-        btnVerPendientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/CitaPendiente.png.png"))); // NOI18N
+        btnVerPendientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resource/citasPendientes.png"))); // NOI18N
         btnVerPendientes.setBorderPainted(false);
         btnVerPendientes.setFocusCycleRoot(true);
         btnVerPendientes.setFocusPainted(false);
@@ -64,10 +61,10 @@ public class InicioCoord extends javax.swing.JFrame {
                 btnVerPendientesActionPerformed(evt);
             }
         });
-        PanelFondo1.add(btnVerPendientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 290, 140, 120));
+        PanelFondo1.add(btnVerPendientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 300, 140, 120));
 
         btnVerCitas.setBackground(new java.awt.Color(15, 35, 50));
-        btnVerCitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/VerCita.png.png"))); // NOI18N
+        btnVerCitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resource/verCitas.png"))); // NOI18N
         btnVerCitas.setBorderPainted(false);
         btnVerCitas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +76,7 @@ public class InicioCoord extends javax.swing.JFrame {
         lblCitasPendientes.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 30)); // NOI18N
         lblCitasPendientes.setForeground(new java.awt.Color(255, 255, 255));
         lblCitasPendientes.setText("Ver Citas Pendientes");
-        PanelFondo1.add(lblCitasPendientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 410, -1, -1));
+        PanelFondo1.add(lblCitasPendientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 430, -1, -1));
 
         lblite.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
         lblite.setForeground(new java.awt.Color(255, 255, 255));
@@ -99,9 +96,8 @@ public class InicioCoord extends javax.swing.JFrame {
         imgTecnm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/TecNM_logoaz.png"))); // NOI18N
         PanelFondo1.add(imgTecnm, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 470, -1));
 
-        subfondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/abstract-luxurious-dark-navy-blue-background-with-golden-line-elegant-modern-background-illustration-vector.jpg"))); // NOI18N
-        subfondo.setText("jLabel2");
-        PanelFondo1.add(subfondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-350, -210, 1710, 1190));
+        subfondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resource/azulFondo.jpg"))); // NOI18N
+        PanelFondo1.add(subfondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-270, -160, 1710, 1190));
 
         getContentPane().add(PanelFondo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1150, 730));
 
@@ -158,7 +154,6 @@ public class InicioCoord extends javax.swing.JFrame {
     private javax.swing.JButton btnVerCitas;
     private javax.swing.JButton btnVerPendientes;
     private javax.swing.JLabel imgTecnm;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel lblCitasPendientes;
     private javax.swing.JLabel lblVerCitas;
     private javax.swing.JLabel lblite;

@@ -4,6 +4,8 @@
 
 package com.mycompany.cites;
 
+import vista.FrInicio;
+
 /**
  *
  * @author Delvi
@@ -11,6 +13,11 @@ package com.mycompany.cites;
 public class CITEs {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+         FrInicio inicio = new FrInicio();
+        
+        //Mostramos la interfaz del menu principal
+        inicio.setVisible(true);
+        
     }
 }

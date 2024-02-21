@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
-  <NonVisualComponents>
-    <Component class="javax.swing.JLabel" name="jLabel2">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/TecNM_logoaz.png"/>
-        </Property>
-      </Properties>
-    </Component>
-  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -81,7 +72,7 @@
               <Color blue="2f" green="23" red="13" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/CitaPendiente.png.png"/>
+              <Image iconType="3" name="/resource/citasPendientes.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
             <Property name="focusCycleRoot" type="boolean" value="true"/>
@@ -92,7 +83,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="730" y="290" width="140" height="120"/>
+              <AbsoluteConstraints x="750" y="300" width="140" height="120"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -102,7 +93,7 @@
               <Color blue="32" green="23" red="f" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/VerCita.png.png"/>
+              <Image iconType="3" name="/resource/verCitas.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
           </Properties>
@@ -127,7 +118,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="690" y="410" width="-1" height="-1"/>
+              <AbsoluteConstraints x="690" y="430" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -194,13 +185,12 @@
         <Component class="javax.swing.JLabel" name="subfondo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/abstract-luxurious-dark-navy-blue-background-with-golden-line-elegant-modern-background-illustration-vector.jpg"/>
+              <Image iconType="3" name="/resource/azulFondo.jpg"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="-350" y="-210" width="1710" height="1190"/>
+              <AbsoluteConstraints x="-270" y="-160" width="1710" height="1190"/>
             </Constraint>
           </Constraints>
         </Component>

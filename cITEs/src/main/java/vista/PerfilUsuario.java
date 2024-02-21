@@ -85,8 +85,6 @@ public class PerfilUsuario extends javax.swing.JFrame {
         lblCorreo.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
         lblCorreo.setText("Correo Institucional:");
 
-        lblUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario.png.png"))); // NOI18N
-
         lblmiCuenta.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
         lblmiCuenta.setText("Mi Cuenta:");
 

@@ -261,11 +261,6 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="lblUsuario">
-              <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/usuario.png.png"/>
-                </Property>
-              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="lblmiCuenta">
               <Properties>
